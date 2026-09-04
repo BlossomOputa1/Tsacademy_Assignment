@@ -26,3 +26,9 @@ echo "the CPU information of this system is $cpu_info"
 # to check the current working directory
 working_directory=$(pwd)
 echo "the current working directory of this system is $working_directory"
+# to check the memory information
+memory_info=$(free -h)
+echo "the memory information of this system is $memory_info"
+
+# to save logs into the logs folder
+echo "$current_date_time - System-info.sh executed succesfully" >> logs/system-info.log

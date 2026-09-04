@@ -22,5 +22,6 @@ if [ "$Disk_usage" -ge "$Threshold" ]; then
     exit 1
 else
     echo "Disk usage is less than the Threshold"
+    echo "$(date) - Disk-check.sh executed succefully" >> logs/disk-check.log
     exit 0
 fi
