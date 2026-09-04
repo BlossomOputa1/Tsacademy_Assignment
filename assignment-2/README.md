@@ -95,7 +95,3 @@ chmod +x grade.sh test.sh app/*.sh
 ```
 
 ---
-
-Save this into `README.md` in the root of your `assignment-2/` folder[cite: 1]. When you are rested, what would you like to review next: running `./grade.sh` or inspecting the Git commit workflow[cite: 1]?
-
-```

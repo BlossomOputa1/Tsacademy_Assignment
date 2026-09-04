@@ -136,5 +136,3 @@ Run the automated test runner to validate script syntax, permissions, and behavi
 ```
 
 ---
-
-Review the **Assumptions** section at the bottom: are there any specific tools (like `netcat` or particular Linux distributions) or settings unique to your WSL setup that you'd like to adjust or add?
