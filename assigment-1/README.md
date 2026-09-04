@@ -1,9 +1,3 @@
-Here is an updated `README.md` that expands your draft into a complete guide for the entire toolkit, covering all four sections required by the assignment rubric: **Installation/Setup**, **Usage**, **Testing**, and **Assumptions**.
-
-Notice one important fix included below: according to the assignment brief, `disk-check.sh` takes `<threshold>` first, followed by the optional `[path]` (`./disk-check.sh <threshold> [path]`).
-
----
-
 ```markdown
 # Linux Diagnostic Toolkit (Assignment 1)
 

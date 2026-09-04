@@ -1,0 +1,6 @@
+.git
+grade.sh
+test.sh
+compose.yaml
+*.logs
+README.md
