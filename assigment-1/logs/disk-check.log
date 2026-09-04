@@ -1,1 +1,14 @@
 Fri Sep  4 11:16:29 WAT 2026 - Disk-check.sh executed succefully
+Fri Sep  4 11:38:08 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 80%
+Fri Sep  4 11:45:22 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:47:02 WAT 2026 - ERROR: Invalid threshold value '154' provided for disk-check.sh
+Fri Sep  4 11:48:41 WAT 2026 - WARNING: Disk usage on / is 1%, exceeding threshold of 1%
+Fri Sep  4 11:49:28 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 100%
+Fri Sep  4 11:52:10 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:52:31 WAT 2026 - WARNING: Disk usage on / is 1%, exceeding threshold of 1%
+Fri Sep  4 11:52:40 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:52:51 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:52:54 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:53:30 WAT 2026 - OK: Disk usage on / is 1%, exceeding threshold of 99%
+Fri Sep  4 11:53:44 WAT 2026 - ERROR: Invalid threshold value '154' provided for disk-check.sh
+Fri Sep  4 11:59:09 WAT 2026 - WARNING: Disk usage on / is 1%, exceeding threshold of 1%
