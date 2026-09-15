@@ -10,40 +10,40 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Make scripts executable
+      - name: Set executable permissions
         run: chmod +x app/*.sh scripts/*.sh tests/*.sh
 
-      - name: Run lint and validation
+      - name: Run linting
         run: ./scripts/lint.sh
 
   test:
     runs-on: ubuntu-latest
     needs: validate
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Make scripts executable
+      - name: Set executable permissions
         run: chmod +x app/*.sh scripts/*.sh tests/*.sh
 
-      - name: Run test suite
+      - name: Run automated tests
         run: ./tests/test.sh
 
   docker:
     runs-on: ubuntu-latest
     needs: test
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Make scripts executable
+      - name: Set executable permissions
         run: chmod +x scripts/*.sh
 
-      - name: Build and smoke-test Docker image
+      - name: Build and smoke test Docker container
         run: ./scripts/build.sh
