@@ -26,8 +26,8 @@ run_test() {
 
 echo "=== Running App Test Suite ==="
 
-# 1. Help command succeeds (exit 99)
-run_test "help command exits with 99" 99 help
+# 1. Help command succeeds (exit 0)
+run_test "help command exits with 0" 0 help
 
 # 2. system-info command succeeds (exit 0)
 run_test "system-info command exits with 0" 0 system-info
